@@ -35,14 +35,15 @@ This is a personal website built using **React** and deployed on **GitHub Pages*
 ## Project Structure
 ```
 my-website/
-│-- public/           # Static assets
-│-- src/
-│   │-- components/   # Reusable React components
-│   │-- pages/        # Different sections (Home, Projects, Vacations)
-│   │-- App.js        # Main application component
-│   │-- index.js      # Entry point
-│-- package.json      # Project metadata & dependencies
-│-- README.md         # Project documentation
+│── public/                 # Static assets
+│── src/                    # Main application code
+│   ├── components/         # Reusable components (Navbar, Footer, etc.)
+│   ├── pages/              # Individual pages (Home, About, Projects, etc.)
+│   ├── assets/             # Images, styles, etc.
+│   ├── App.js              # Main app entry point
+│   ├── index.js            # React root file
+│── package.json            # Dependencies & scripts
+│── README.md               # Project details
 ```
 
 ## Deployment to GitHub Pages
