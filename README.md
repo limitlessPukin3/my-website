@@ -56,7 +56,7 @@ my-website/
    "homepage": "https://YOUR_GITHUB_USERNAME.github.io/my-website",
    "scripts": {
      "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+     "deploy": "gh-pages -d build --repo https://github.com/YOUR_GITHUB_USERNAME/my-website.git""
    }
    ```
 
