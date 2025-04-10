@@ -4,7 +4,9 @@ import "../assets/styles.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>My Website</h1>
+      <div className="logo">
+        <h1>My Website1</h1>
+      </div>
       <ul className="nav-list">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/consulting">Consulting</Link></li>

@@ -8,7 +8,7 @@ import About from "../pages/About";
 import Consulting from "../pages/Consulting";
 import Personal from "../pages/Personal";
 import Blog from "../pages/Blog";
-import BlogPost from "../pages/BlogPost";
+import BlogPost from "../components/BlogPost";
 import Contact from "../pages/Contact";
 
 const AppRoutes = () => (

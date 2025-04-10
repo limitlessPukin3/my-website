@@ -1,16 +1,18 @@
-// src/Personal.js
-import React from 'react';
-import { Link } from 'react-router-dom';
+import projectDetails from "../data/projectDetails";
 
 const Personal = () => {
   return (
     <div>
-      <h1>Personal</h1>
-      <ul>
-        <li><Link to="/project/1">Project 1: Weather App</Link></li>
-        <li><Link to="/project/2">Project 2: Fitness Tracker</Link></li>
-        <li><Link to="/project/3">Project 3: Expense Manager</Link></li>
-      </ul>
+      <h2>Personal Projects</h2>
+      {projectDetails.map((project, index) => (
+        <div key={index}>
+          <h3>{project.title}</h3>
+          <p>{project.description}</p>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </div>
+      ))}
     </div>
   );
 };
