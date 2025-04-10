@@ -13,7 +13,7 @@ import Contact from "../pages/Contact";
 
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/home" element={<Home />} />
     <Route path="/projects" element={<Projects />} />
     <Route path="/vacations" element={<Vacations />} />
     <Route path="/hobbies" element={<Hobbies />} />
